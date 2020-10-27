@@ -6831,7 +6831,7 @@ footer a:before {
     font-size: 18px;
     font-family: 'Roboto Condensed', sans-serif;
     font-weight: bold;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .full_menu {
@@ -8213,7 +8213,7 @@ footer a:before {
 	---------------------------------------------------- */
 
 .progress_block {
-    margin: 100px 0px;
+    margin: 80px 0px;
 }
 
 .progress_block .b_num {
@@ -8698,9 +8698,9 @@ section .head_block {
     padding-bottom: 0px;
 }
 
-.head_block_left h2 {
+/* .head_block_left h2 {
     padding-bottom: 20px;
-}
+} */
 
 
 /*------ 11.4 FILTER_PROJECTS */
@@ -10093,7 +10093,7 @@ section .head_block {
 
 .icons_block {
     background: #0D0D0D;
-    padding: 100px 0px;
+    padding: 80px 0px;
     color: #fff;
 }
 
@@ -10289,7 +10289,7 @@ section .head_block {
 
 .blocks_act {
     background-size: cover;
-    padding: 70px 0px;
+    padding: 40px 0px;
     position: relative;
 }
 
@@ -10661,7 +10661,7 @@ footer {
 }
 
 .footer_b {
-    padding-top: 80px;
+    padding-top: 60px;
     padding-bottom: 50px;
     /* border-top: 1px solid #262626; */
 }
@@ -11253,9 +11253,9 @@ body {
     #contact .progress_block {
         padding: 50px 0px;
     }
-    .info-progress_block {
+    /* .info-progress_block {
         margin: 80px 0px;
-    }
+    } */
 }
 
 @media (max-width: 991.98px) {
