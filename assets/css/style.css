@@ -99,11 +99,13 @@ body {
 
 ::-webkit-scrollbar-thumb {
     border-radius: 4px;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
     background-color: #ffc006;
 }
 
 ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.9);
     background-color: #f5f5f5;
 }
@@ -6529,6 +6531,7 @@ footer a:before {
     height: auto;
     display: -webkit-box;
     box-sizing: border-box;
+    transform: rotate(-90deg) translate3d(200px, 0, 0);
     -webkit-transform: rotate(-90deg) translate3d(200px, 0, 0);
     webkit-backface-visibility: hidden;
     -webkit-transform-origin: right top;
@@ -6631,6 +6634,7 @@ footer a:before {
     flex-direction: column;
     height: auto;
     box-sizing: border-box;
+    transform: rotate(-90deg) translate3d(12px, 0, 0);
     -webkit-transform: rotate(-90deg) translate3d(12px, 0, 0);
     webkit-backface-visibility: hidden;
     -webkit-transform-origin: right top;
@@ -6699,6 +6703,7 @@ footer a:before {
     box-shadow: none;
     padding: 40px;
     box-sizing: border-box;
+    transform: rotate(90deg);
     -webkit-transform: rotate(90deg);
     -webkit-transform-origin: left top;
     transform-origin: left top;
@@ -11025,6 +11030,7 @@ body {
     }
     .left_menu .social_menu_left,
     .navbar .social_menu_left {
+        transform: none;
         -webkit-transform: none;
         position: static;
     }
@@ -11059,6 +11065,7 @@ body {
         text-align: center;
         top: 0;
         left: 0;
+        transform: none;
         -webkit-transform: none;
         padding: 0px;
         /* overflow: scroll; */
@@ -11140,6 +11147,7 @@ body {
     }
     .left_menu .dropdown-menu,
     .navbar .dropdown-menu {
+        transform: none !important;
         -webkit-transform: none !important;
         position: relative !important;
         display: none !important;
