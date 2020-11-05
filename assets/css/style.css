@@ -7406,18 +7406,10 @@ footer a:before {
     font-weight: 500;
 }
 
-.button_large:after,
-.button_medium:after,
-.button_small:after {
-    content: "";
-    position: absolute;
-    display: block;
-    width: 100%;
-    height: 100%;
-    outline: 0px solid #ffc006;
-    z-index: -1;
-    left: 0;
-    top: 0;
+.button_large:hover,
+.button_medium:hover,
+.button_small:hover {
+    background-color: #ffc006;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
@@ -11844,5 +11836,13 @@ body {
     .wapp-btn {
         right: 7px;
         bottom: 7px;
+    }
+
+    #contact-h2 {
+        font-size: 36px;
+    }
+
+    .icons_block {
+        padding: 80px 40px;
     }
 }
