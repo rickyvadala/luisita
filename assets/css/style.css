@@ -11845,3 +11845,7 @@ body {
         padding: 80px 40px;
     }
 }
+
+figure.jarallax:hover {
+    filter: grayscale(1);
+}
